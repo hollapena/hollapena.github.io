@@ -203,16 +203,32 @@ text-align: center;
   height:fit-content;
   min-height:100vh;
   min-width:100vw;
-  display:grid;
+  display:flex;
+  justify-content: center;
+  column-gap:50px;
 }
 #resume{
   height:1075px;
   width:800px;
   border:none;
   background:white;
-  justify-self:center;
   margin-top:100px;
   margin-bottom:100px;
   box-shadow:2px 4px 10px rgb(87, 87, 87);
-  
+  margin-right:100px;
 }
+#skill-icons{
+  display:grid;
+  height:400px;
+  margin-top:150px;
+}
+.fa2{
+  text-align: center;  
+  margin: 5px 2px;   
+  height:100px;
+  width:100px;
+  opacity:0.7;
+}  
+.fa:hover {  
+    opacity: 1;  
+}  
