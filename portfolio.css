@@ -82,6 +82,21 @@ a:hover{
   background-color: #7e7e7e;
   color:white;
 }
+#recyclopedia{
+  grid-area:featuredproject;
+ display:grid;
+  width:520px;
+  height:auto;
+  justify-items:center;
+  padding-bottom:10px;
+  grid-template-areas:
+    "Image"
+    "Title";
+}
+#recyclopedia-image{
+  grid-area:Image;
+  width:520px;
+}
 #peachtreeimage{
   border-radius:50%;
   width:300px;
@@ -100,8 +115,9 @@ a:hover{
   grid-area:projects;
   display:grid;
   grid-template-areas:
-    "header header"
-    "project1 project2";
+    "header header header"
+    " featuredproject featuredproject featuredproject"
+    "project1 . project2";
   justify-items:center;
   background:#616161;
   width:100%;
@@ -180,6 +196,7 @@ text-align: center;
   display:grid;
   grid-template-areas:
     "header"
+    "featuredproject"
     "project1"
     "project2";
   }
