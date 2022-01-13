@@ -215,7 +215,8 @@ text-align: center;
   display:grid;
   grid-template-areas:
     "header"
-    "featuredproject"
+    "featuredproject1"
+    "featuredproject2"
     "project1"
     "project2";
   }
