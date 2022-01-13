@@ -1,271 +1,265 @@
 /* GENERAL SITE CSS */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap');
-body{
-  background:linear-gradient(rgba(221, 237, 237, 1), rgba(245,151, 148,1));
-  background-size:cover;
-  background-repeat:no-repeat;
-  font-family: 'Raleway', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap");
+body {
+  background: linear-gradient(rgba(221, 237, 237, 1), rgba(245, 151, 148, 1));
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Raleway", sans-serif;
 }
-html{
-  scroll-behavior:smooth;
-}
-
-hr{
-  background:#616161;
-  border:2px solid #616161;
-}
-h1{
-  color:#616161;
-  font-size:60px;
-}
-h2{
-  font-size:30px;
-  text-align:center;
+html {
+  scroll-behavior: smooth;
 }
 
-a{
-  color:gray;
-  text-decoration:none;
-  font-family:sans-serif;
-  font-weight:300;
-  margin-right:20px;
+hr {
+  background: #616161;
+  border: 2px solid #616161;
+}
+h1 {
+  color: #616161;
+  font-size: 60px;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-right: 20px;
   transition: color 0.4s ease-out 50ms;
 }
-a:hover{
-  color:white;
+a:hover {
+  color: white;
 }
-
-
-
 
 /* HOME PAGE CSS */
 
-#welcome-section{
-  margin-top:0px;
-  margin-bottom:0px;
-  height:100vh;
-  padding-top:0px;
-  grid-area:welcome;
-  font-family: 'Raleway', sans-serif;
-  text-align:center;
-  color:white;
+#welcome-section {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100vh;
+  padding-top: 0px;
+  grid-area: welcome;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: white;
 }
-#profilepic{
-  height:220px;
-  width:200px;
-  border-radius:50%;
-  object-fit:cover;
+#profilepic {
+  height: 220px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-#peachtree{
-  grid-area:project1;
- display:grid;
-  padding-bottom:10px;
+#peachtree {
+  grid-area: project1;
+  display: grid;
+  padding-bottom: 10px;
   grid-template-areas:
     "Image"
     "Title";
 }
-.project-title{
-  height:75px;
-  width:400px;
-  padding-top:10px;
-  font-family:sans-serif;
-  font-weight:300;
-  text-align:center;
-  background:#dedede;
+.project-title {
+  height: 75px;
+  width: 400px;
+  padding-top: 10px;
+  font-family: sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background: #dedede;
   color: gray;
-  box-shadow:0px 0px 20px black;
+  box-shadow: 0px 0px 20px black;
   transition: background-color 0.4s ease-out 50ms;
   transition: color 0.4s ease-out 50ms;
 }
-.project-title:hover{
+.project-title:hover {
   background-color: #7e7e7e;
-  color:white;
+  color: white;
 }
-#recyclopedia{
-  grid-area:featuredproject1;
- display:grid;
-  width:520px;
-  height:30;
-  justify-items:center;
-  padding-bottom:10px;
+#recyclopedia {
+  grid-area: featuredproject1;
+  display: grid;
+  width: 520px;
+  height: 30;
+  justify-items: center;
+  padding-bottom: 10px;
   grid-template-areas:
     "Image"
     "Title";
 }
-#recyclopedia-image{
-  grid-area:Image;
-  width:520px;
+#recyclopedia-image {
+  grid-area: Image;
+  width: 520px;
   height: 280px;
-  border-radius:10px;
+  border-radius: 10px;
 }
-#wander{
-  grid-area:featuredproject2;
- display:grid;
-  width:520px;
-  height:auto;
-  justify-items:center;
-  padding-bottom:10px;
+#wander {
+  grid-area: featuredproject2;
+  display: grid;
+  width: 520px;
+  height: auto;
+  justify-items: center;
+  padding-bottom: 10px;
   grid-template-areas:
     "Image"
     "Title";
 }
-#wander-image{
-  grid-area:Image;
-  width:520px;
-  height:280px;
-  border-radius:10px;
+#wander-image {
+  grid-area: Image;
+  width: 520px;
+  height: 280px;
+  border-radius: 10px;
 }
-#peachtreeimage{
-  border-radius:50%;
-  width:300px;
-  height:300px;
-  margin:auto;
-  box-shadow:0px 0px 20px black;
+#peachtreeimage {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  box-shadow: 0px 0px 20px black;
 }
 
-#resume-link{
-  margin-right:50px;
+#resume-link {
+  margin-right: 50px;
 }
-.separator{
-  margin-right:20px;
+.separator {
+  margin-right: 20px;
 }
-#projects{
-  grid-area:projects;
-  display:grid;
+#projects {
+  grid-area: projects;
+  display: grid;
   grid-template-areas:
     "header header header"
     " featuredproject1 . featuredproject2"
     "project1 . project2";
-  justify-items:center;
-  background:#616161;
-  width:100%;
-  box-shadow:0px 0px 10px black;
+  justify-items: center;
+  background: #616161;
+  width: 100%;
+  box-shadow: 0px 0px 10px black;
 }
-#projectheading{
-  grid-area:header;
+#projectheading {
+  grid-area: header;
   color: white;
-  text-align:center;
+  text-align: center;
 }
-#navbar{
-  grid-area:navbar;
-  display:flex;
-  flex-direction:row;
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  justify-content:flex-end;
-  background:#616161;
+#navbar {
+  grid-area: navbar;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: flex-end;
+  background: #616161;
   width: 100vw;
-  height:50px;
-  align-items:center;
-  color:white;
+  height: 50px;
+  align-items: center;
+  color: white;
 }
-.navlink{
-  background-color:#616161;
-  height:50px;
-  width:80px;
-  line-height:50px;
-  text-align:center;
+.navlink {
+  background-color: #616161;
+  height: 50px;
+  width: 80px;
+  line-height: 50px;
+  text-align: center;
   transition: background-color 0.35s ease-out 50ms;
 }
-.navlink:hover{ 
-  background-color:#7e7e7e;
+.navlink:hover {
+  background-color: #7e7e7e;
 }
-#contact{
-  grid-area:contact;
-  text-align:center;
-  line-height:20px;
-   height:600px;
-  padding-top:50px;
+#contact {
+  grid-area: contact;
+  text-align: center;
+  line-height: 20px;
+  height: 600px;
+  padding-top: 50px;
 }
-#contact-subheader{
-  padding-bottom:40px;
+#contact-subheader {
+  padding-bottom: 40px;
 }
-.fa {  
-text-align: center;  
-  margin: 5px 2px;   
-  height:70px;
-  opacity:0.7;
-}  
-.fa:hover {  
-    opacity: 1;  
-}  
-#rockon{
-  grid-area:project2;
- display:grid;
-  width:420px;
-  height:auto;
-  padding-bottom:10px;
+.fa {
+  text-align: center;
+  margin: 5px 2px;
+  height: 70px;
+  opacity: 0.7;
+}
+.fa:hover {
+  opacity: 1;
+}
+#rockon {
+  grid-area: project2;
+  display: grid;
+  width: 420px;
+  height: auto;
+  padding-bottom: 10px;
   grid-template-areas:
     "Image"
     "Title";
 }
-#rockonimage{
-  border-radius:50%;
-  width:300px;
-  height:300px;
-  margin:auto;
-  box-shadow:0px 0px 20px black;
+#rockonimage {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  box-shadow: 0px 0px 20px black;
 }
-@media (max-width: 850px){
-  #projects{
-  grid-area:projects;
-  display:grid;
-  grid-template-areas:
-    "header"
-    "featuredproject1"
-    "featuredproject2"
-    "project1"
-    "project2";
+@media (max-width: 850px) {
+  #projects {
+    grid-area: projects;
+    display: grid;
+    grid-template-areas:
+      "header"
+      "featuredproject1"
+      "featuredproject2"
+      "project1"
+      "project2";
   }
-  #contact{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    height:800px;
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
   }
-  #contact-subheader{
-  padding-bottom:100px;
+  #contact-subheader {
+    padding-bottom: 100px;
   }
 }
-
-
-
 
 /* RESUME PAGE CSS */
 
-#resume-container{
-  height:fit-content;
-  min-height:100vh;
-  min-width:100vw;
-  display:flex;
+#resume-container {
+  height: fit-content;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
   justify-content: center;
-  column-gap:50px;
+  column-gap: 50px;
 }
-#resume{
-  height:1075px;
-  width:800px;
-  border:none;
-  background:white;
-  margin-top:100px;
-  margin-bottom:100px;
-  box-shadow:2px 4px 10px rgb(87, 87, 87);
-  margin-right:100px;
+#resume {
+  height: 1075px;
+  width: 800px;
+  border: none;
+  background: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 2px 4px 10px rgb(87, 87, 87);
+  margin-right: 100px;
 }
-#skill-icons{
-  display:grid;
-  height:400px;
-  margin-top:150px;
+#skill-icons {
+  display: grid;
+  height: 400px;
+  margin-top: 150px;
 }
-.fa2{
-  text-align: center;  
-  margin: 5px 2px;   
-  height:100px;
-  width:100px;
-  opacity:0.7;
-}  
-.fa:hover {  
-    opacity: 1;  
-}  
+.fa2 {
+  text-align: center;
+  margin: 5px 2px;
+  height: 100px;
+  width: 100px;
+  opacity: 0.7;
+}
+.fa:hover {
+  opacity: 1;
+}
