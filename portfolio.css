@@ -83,10 +83,10 @@ a:hover{
   color:white;
 }
 #recyclopedia{
-  grid-area:featuredproject;
+  grid-area:featuredproject1;
  display:grid;
   width:520px;
-  height:auto;
+  height:30;
   justify-items:center;
   padding-bottom:10px;
   grid-template-areas:
@@ -96,6 +96,25 @@ a:hover{
 #recyclopedia-image{
   grid-area:Image;
   width:520px;
+  height: 280px;
+  border-radius:10px;
+}
+#wander{
+  grid-area:featuredproject2;
+ display:grid;
+  width:520px;
+  height:auto;
+  justify-items:center;
+  padding-bottom:10px;
+  grid-template-areas:
+    "Image"
+    "Title";
+}
+#wander-image{
+  grid-area:Image;
+  width:520px;
+  height:280px;
+  border-radius:10px;
 }
 #peachtreeimage{
   border-radius:50%;
@@ -116,7 +135,7 @@ a:hover{
   display:grid;
   grid-template-areas:
     "header header header"
-    " featuredproject featuredproject featuredproject"
+    " featuredproject1 . featuredproject2"
     "project1 . project2";
   justify-items:center;
   background:#616161;
